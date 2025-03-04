@@ -1,11 +1,11 @@
-import './CreateTodoButton.css'; // Import the CSS file
+import "./CreateTodoButton.css"; // Import the CSS file
 
 function CreateTodoButton(props) {
   return (
     <button
-      className='CreateTodoButton'
+      className="CreateTodoButton"
       onClick={(event) => {
-        console.log('Le diste click al botón');
+        console.log("Le diste click al botón");
         console.log(event);
         console.log(event.target);
       }}
